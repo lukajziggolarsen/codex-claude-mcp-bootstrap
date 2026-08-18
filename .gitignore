@@ -1,0 +1,19 @@
+# Never commit credentials or local environment overrides.
+.env
+.env.*
+*.env
+secrets.env
+*.secret
+*.secrets
+
+# Local backups and generated runtime state.
+*.bak
+backups/
+runtime.env
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
